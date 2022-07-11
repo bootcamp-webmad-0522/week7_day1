@@ -1,0 +1,12 @@
+button {
+    font-size: 1.2em;
+    margin: 5px
+}
+
+button.theme-danger {
+    background: rgb(255, 176, 176)
+}
+
+button.theme-warning {
+    background-color: rgb(255, 255, 138);
+}

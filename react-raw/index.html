@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add React to a Website</title>
+    <meta charset="UTF-8" />
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+</head>
+
+<body>
+
+    <div id="root"></div>
+
+
+    <script type="text/babel">
+
+
+        const title = <h1>Hello React!</h1>
+        const subtitle = <p> React is a front-end JavaScript library </p>
+
+        const fullHeader = (
+            <header className="hero">
+                {title}
+                {subtitle}
+            </header>
+        )
+
+        ReactDOM.render(fullHeader, document.getElementById('root'))
+    </script>
+
+
+
+
+</body>
+
+</html>
